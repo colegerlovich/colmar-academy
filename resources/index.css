@@ -4,6 +4,7 @@ body {
     background-color: aliceblue;
     font-size: 22px;
     text-align: center;
+    padding: 0;
 }
 
 a {
@@ -30,6 +31,7 @@ header {
     align-items: center;
     z-index: 1;
     border-bottom: 1px solid seashell;
+    background-color: white;
 }
 
 header img {
@@ -43,9 +45,23 @@ nav {
 }
 nav span    {
     display: inline-block;
-    padding-right: 24px;
-}
-.intro {
-    padding-top: 32px;
+    padding-right: 24px 16px;
 }
 
+.flexbox-container{
+    display: flex;
+    background-color: aquamarine;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+   
+}
+.flex-item img {
+    display: flex;
+    align-items: center;
+}
+
+.flex-item img{
+    flex-grow:0;
+    flex-shrink:0;
+}
