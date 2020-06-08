@@ -65,3 +65,20 @@ nav span    {
     flex-grow:0;
     flex-shrink:0;
 }
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main {
+    flex: 60%;
+    background-color: white;
+    padding 24px;
+}
+
+.side{
+    flex: 40%;
+    background-color: azure;
+    padding: 24px;
+
+}
