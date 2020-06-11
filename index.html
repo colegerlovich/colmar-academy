@@ -1,72 +1,100 @@
 <!DOCTYPE html> 
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="keywords" content="HTML, CSS">
-        <meta name="author" content="Cole Gerlovich">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" type="text/css" href="resources/index.css">
-        <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
-        <title>Colmar Academy</title>
-    </head>
+
+<head>
+    <title>Colmar Academy - Learn something new everyday</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="resources/index.css" type="text/css" rel="stylesheet" />
+    <link href="resources/index-mobile.css" type="text/css" rel="stylesheet" />
+</head>
 
 <body>
-     <!--Navigation Bar-->
-<header class="flex-container">
-        <img src="../images/ic-logo.svg">  
-        <nav> 
-           <span><a href="#">On campus</a></span>
-           <span><a href="#"> Online</a></span>
-           <span><a href="#"> Sign in</a></span>
+
+    <header>
+        <div class="holder-logo">
+            <img src="../images/ic-logo.svg" alt="Colmar Academy logo" />
+            <p><span class="logo1">Colmar</span><span class="logo2">Academy</span></p>
+        </div>
+
+        <nav id="desktop">
+            <a href="#">On campus</a>
+            <a href="#">Online</a>
+            <a href="#">For companies</a>
+            <a href="#">Sign in</a>
         </nav>
-</header>
 
-        <!--Main section-->
+        <nav id="mobile">
+            <img src="./img/ic-logo.svg" alt="Colmar Academy logo" />
+            <a href="#"><img src="./img/ic-on-campus.svg" alt="" /></a>
+            <a href="#"><img src="./img/ic-online.svg" alt="" /></a>
+            <a href="#"><img src="./img/ic-login.svg" alt="" /></a>
+        </nav>
+    </header>
 
+    <section id="Learn">
+        <div class="holder-img-header">
+            <img src="../images/banner.jpg" class="img-header">
+        </div>
+        <div class="holder-text">
+            <h1>Learn something</h1>
+            <h1>new everyday</h1>
+            <h2>with online classes</h2>
+            <button>Start here</button>
+
+        </div>
+
+    </section>
+
+    <section id="practice">
+        <div class="holder-main">
+            <div class="holder-main-img">
+                <img src="../images/information-main.jpg">
+            </div>
+            <h1>It doesn't hurt to keep practicing</h1>
+            <p>No matter your age going to school is always an option</option></p>
+        </div>
+
+        <div class="holder-side">
+            <div class="campus-info-single">
+                <div class="holder-img-campus-info">
+                    <img src="../images/information-orientation.jpg" alt="">
+                    <img src="" alt="">
+                </div>
+                <div class="info-text">
+                    <h3>Orientation date</h3>
+                    <h4>Tue 10/11 & Wed 10/12: 8am-3pm</h4>
+                    <a href="Read more"></a>
+                </div>
+            </div>
+
+            <div class="campus-info-single">
+                <div class="holder-img-campus-info">
+                    <img src="../images/information-campus.jpg" alt="">
+                    <img src="" alt="">
+                </div>
+                <div class="info-text">
+                    <h3>Our campus</h3>
+                    <h4>Find which campus is close by you</h4>
+                    <a href="Read more"></a>
+                </div>
+            </div>
+
+            <div class="campus-info-single">
+                <div class="holder-img-campus-info">
+                    <img src="../images/information-guest-lecture.jpg" alt="">
+                    <img src="" alt="">
+                </div>
+                <div class="info-text">
+                    <h3>Our guest lecture</h3>
+                    <h4>Join a keynot withg Oliver Sack about music in medical treatment</h4>
+                    <a href="">Read more</a>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+
+</body>
     
-
-        <div class="two-up">
-            <div class="two-up-image">
-                <img src="../images/banner.jpg">
-            </div>
-            <div class="two-up-text">
-                <h3>Learn something</h3>
-                <h3>new everyday</h3>
-                <p>with online and inperson classes</p>
-                
-
-        </div>
-
-    </div>
-        
-    <!--BOX2-->
-    <div class="row">
-        <div class="main">
-            <img src="../images/information-main.jpg">
-            <h2>It doesn't hurt to keep practicing</h2>
-            <p>This is a great way to learn even through aging</p>
-        </div>
-        <div class="side>">
-            <div class="img-1">
-                <img src="../images/information-orientation.jpg">
-                <h3>Orientation date</h3>
-                <h5> Tue 10/11 & Wed 10/12: 8am-3pm</h5>
-            </div>
-            <div class="img-1">
-                <img src="../images/information-campus.jpg">
-                <h3>Our Campus</h3>    
-                <h5>Find which campus is close by you</h5>
-            </div>
-            <div class="img-1"></div>
-                <img src="../images/information-guest-lecture.jpg">
-                <h3>Our Guest Lecturer</h3>
-                <h5>Join a keynote with Oliver Sack about music in medical treatment</h5>
-        </div>
-
-
-    </div>
-     
- </body>   
-
-
-</html>

@@ -1,99 +1,125 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen|Rufina');
+
+/*
+#003249
+#007EA7
+#80CED7
+#9AD1D4
+#CCDBDC
+*/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 18px;
+}
+
 body {
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: aliceblue;
-    font-size: 22px;
-    padding: 0;
+  font-family: "Oxygen", sans-serif;
+  background-color: #CCDBDC;
+}
+
+.rufina {
+  font-family: "Rufina", serif;
+  font-size: 1.5rem;
+}
+
+.oxygen {
+  font-family: "Oxygen", sans-serif;
 }
 
 a {
-    color: black;
-    text-decoration: none;
+  color: #003249;
+  text-decoration: none;
 }
 
-h1 h2 h4 {
-    margin: 0;
-    padding: 10px;
+a:hover {
+  text-decoration: underline;
 }
-
-.flex-container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-
 
 header {
-    height: 64px;
-    width: 100%;
-    position: fixed;
-    align-items: center;
-    z-index: 1;
-    border-bottom: 1px solid seashell;
-    background-color: white;
+  width: 100%;
+  height: 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+  border-bottom: 2px solid #003249;
 }
 
-header img {
-    height: 32px;
-    padding-left: 24px;
+.holder-logo {
+  display: flex;
 }
 
-nav {
-    text-align: right;
-    flex-grow: 1;
-}
-nav span    {
-    display: inline-block;
-    padding-right: 24px 16px;
+.logo1 {
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
-.two-up {
-    display: flex;
-    padding: 3rem;
-    align-items: center;
-    justify-content: space-between;
+.logo2 {
+  text-transform: uppercase;
 }
 
-.two-up-image {
-    flex: 0 1 60%;
-    margin-right: 2rem;
-    padding-top: 50px;
+#desktop {
+  display: block;
 }
 
-.two-up-text {
-    flex: 0 1 40%;
-    font-family: 'Abril Fatface', cursive;
-    padding-left: 24px;
+#desktop a {
+  margin-left: 16px;
 }
 
-.two-up-text h3 {
-    font-size: 50px;   
-}
-.two-up-text p {
-    font-size: 30px;
-}
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-.main {
-    flex: 60%;
-    background-color: palevioletred;
-    padding 24px;
+#mobile {
+  display: none;
 }
 
-.side{
-    flex: 40%;
-    background-color: goldenrod;
-    padding: 24px;
-
+#Learn {
+  background-color: honeydew;
+  padding: 32px 24px;
+  display: flex;
 }
 
-img .side {
-    height: 100px;
-    width: 35%;
+#Learn h1 {
+  font-family: "Rufina", serif;
+  font-size: 32px;
+  line-height: 2rem;
 }
 
-.side .text-side {
-    width: 65%;
+#Learn h2 {
+  font-size: 1rem;
+  margin: 32px 0 24px 0;
+}
+
+button {
+  background-color: darksalmon;
+  color: darkcyan;
+  border: 0;
+  font-family: "Oxygen", sans-serif;
+  font-size: 1rem;
+  padding: 8px 0;
+  border: 2px solid gainsboro;
+}
+
+.holder-img-header {
+  width: 60%;
+  height: auto;
+}
+
+.img-header {
+  width: 100%;
+  height: auto;
+}
+
+.holder-text {
+  display: flex;
+  flex-flow: wrap column;
+  margin-left: 40px;
+  justify-content: center;
+}
+
+#practice {
+  display: flex;
 }
