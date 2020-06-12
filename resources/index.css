@@ -191,3 +191,153 @@ button {
  #dark-grey {
    background-color: darkgray;
  }
+
+ #learning {
+   background-color: pink;
+ }
+
+ #learning h1 {
+   font-size: 2rem;
+   text-align: center;
+   padding: 32px 0 16px 0;
+   font-family: "Rufina", serif;
+ }
+
+ #learning h2 {
+  font-family: "Rufina", serif;
+  font-size: 1.5rem;
+  margin: 16px 0;
+}
+
+#learning h3 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 1rem;
+  margin: 8px 0;
+}
+
+.holder-courses {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: auto;
+}
+
+.holder-course {
+  background-color: whitesmoke;
+  width: 30%;
+  margin: 16px;
+  padding-bottom: 24px;
+}
+
+.holder-courses-img {
+  width: 100%;
+  height: auto;
+}
+
+.holder-courses-text {
+  padding: 16px 16px;
+}
+
+.course-img {
+  width: 100%;
+  height: auto;
+}
+
+#thesis h1 {
+  font-family: "Rufina", serif;
+  font-size: 2rem;
+  padding: 32px 0;
+  text-align: center;
+}
+
+#thesis h3 {
+  font-family: "Rufina", serif;
+  font-size: 1.5rem;
+}
+
+#thesis h4 {
+  font-family: "Oxygen", sans-serif;
+  font-size: 0.8rem;
+  margin: 8px 0;
+}
+
+.holder-thesis {
+  display: flex;
+  width: 100%;
+}
+
+.holder-video {
+  height: auto;
+  width: 100%;
+  padding: 0px 24px 24px 24px;
+}
+
+video {
+  height: auto;
+  width: 100%;
+}
+
+.holder-thesis-text {
+  flex-flow: wrap column;
+  justify-content: center;
+}
+
+.holder-thesis-text {
+  margin: 24px 0px 32px 24px;
+}
+
+.holder-thesis-text p {
+  margin-top: 16px;
+}
+
+.holder-thesis-side {
+  min-width: 423px;
+}
+
+.holder-side-1{
+  min-height: 168px;
+  display: flex;
+  align-items: center;
+  background-color: teal;
+}
+
+.holder-side-2{
+  min-height: 168px;
+  display: flex;
+  align-items: center;
+}
+
+.holder-side-img {
+  max-width: 35%;
+  height: auto;
+  margin: 16px;
+}
+
+.thesis-img {
+  height: auto;
+  width: 100%;
+}
+
+footer {
+  background-color: #007EA7;
+  color: #003249;
+  padding: 0 24px;
+  border-top: 2px solid #003249;
+  display: flex;
+  justify-content: space-between;
+}
+
+.copy {
+  display: block;
+  padding: 16px 0;
+}
+
+footer a {
+  display: inline-block;
+  margin: 16px 0 0 16px;
+  text-decoration: underline;
+}
+
+footer a:hover {
+  text-decoration: none;
+}
